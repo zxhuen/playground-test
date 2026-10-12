@@ -10,7 +10,7 @@ export default function Button({
   onClick,
 }: ButtonProps) {
   return (
-    <button onClick={onClick}>
+    <button onClick={onClick} className="rounded-lg bg-blue-600 px-5 py-3 font-medium text-white transition-colors hover:bg-red-100">
       {label}
     </button>
   );

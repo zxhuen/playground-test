@@ -2,7 +2,7 @@
 
 import Button from "@/app/component/button";
 import Icon from "@/app/component/Icon";
-
+import Test from "@/app/component/test";
 
 export default function HomePage() {
   return (
@@ -14,6 +14,9 @@ export default function HomePage() {
         label="Click me"
         onClick={() => alert("Hello!")}
       />
+
+      <Test label="Click me"/>
+      
     </main>
   );
 }
